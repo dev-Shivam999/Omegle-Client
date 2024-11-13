@@ -5,7 +5,7 @@ import Room from "./Pages/Room";
 
 const App = () => {
   return (
-    <div>
+    <div className="bg-black text-white">
         <BrowserRouter>
         <Routes>
           <Route path="/" element={<Landing/>}/>
